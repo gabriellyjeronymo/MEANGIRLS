@@ -1,0 +1,87 @@
+/* paleta de cores ##BF7E78 #F2E4DC #0D0D0D #8FA1A6 */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+#logomarca {
+  font-size: 40px;
+  transition: 0.5s;
+}
+
+#logomarca:hover {
+  color: #BF7E78;
+}
+
+#header1 {
+  
+}
+
+#header2 {
+    background-color: #BF7E78;
+}
+
+#nav_itens_li li a {
+  margin-left: 30px;
+  margin-right: 30px;
+  transition: 0.3s;
+}
+
+#nav_itens_li li a:hover {
+  color: #F2E4DC;
+}
+
+#lupa img {
+ width: 20px;
+}
+
+#lupa {
+  border: 0;
+}
+
+#lupa:hover {
+  background-color: #F8F9FA;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.card {
+  margin-top: 70px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: #BF7E78;
+  height: 150px;
+}
+
+.card img {
+  height: 360px;
+}
+
+main h1 {
+  margin-top: 75px;
+}
+
+.btn {
+  background-color: #BF7E78;
+}
+
+.btn:hover{
+  background-color: #a56561;
+}
